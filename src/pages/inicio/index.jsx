@@ -1,5 +1,6 @@
 import './index.scss';
 import Cabecalho from '../../componentes/cabecalho';
+import Footer from '../../componentes/footer';
 import { Link } from 'react-router-dom'
 
 export default function Inicio(){
@@ -14,6 +15,8 @@ export default function Inicio(){
                                 <li><Link to='/eventos'>Página 3 eventos</Link></li>
                             </ul>
                       </div>
+                    <Footer/>
+
         </div>
     )
 }
