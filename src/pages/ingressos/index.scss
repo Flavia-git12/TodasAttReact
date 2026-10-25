@@ -1,0 +1,66 @@
+.page-ingressos {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fff5f8;
+}
+
+.page-ingressos section {
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #f2b8cd;
+    border-radius: 10px;
+}
+
+.page-ingressos h1 {
+    text-align: center;
+    color: #ad1457;
+    margin-bottom: 25px;
+}
+
+.page-ingressos .i {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+.page-ingressos label {
+    color: #444;
+}
+
+.page-ingressos input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.page-ingressos input[type="checkbox"] {
+    align-self: flex-start;
+}
+
+.page-ingressos button {
+    padding: 10px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.page-ingressos .total {
+    color: #ad1457;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.voltar {
+    display: block;
+    margin-bottom: 20px;
+    color: #ad1457;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}

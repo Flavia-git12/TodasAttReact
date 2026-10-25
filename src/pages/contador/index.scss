@@ -1,0 +1,39 @@
+.page-contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    margin: 50px auto;
+    width: 300px;
+    background-color: #fff5f8;
+    border: 1px solid #f2b8cd;
+    border-radius: 10px;
+}
+
+.page-contador h2 {
+    color: #ad1457;
+}
+
+.page-contador button {
+    padding: 10px 20px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.page-contador button:hover {
+    background-color: #880e4f;
+}
+
+.voltar {
+    display: block;
+    margin-bottom: 20px;
+    color: #ad1457;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}

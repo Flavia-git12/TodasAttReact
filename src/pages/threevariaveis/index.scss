@@ -1,0 +1,67 @@
+.Pagina-Eventos {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fff5f8;
+}
+
+.Pagina-Eventos .container {
+    width: 500px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #f2b8cd;
+    border-radius: 10px;
+}
+
+.Pagina-Eventos h2 {
+    text-align: center;
+    color: #ad1457;
+}
+
+.Pagina-Eventos p {
+    color: #444;
+    line-height: 1.5;
+}
+
+.Pagina-Eventos input[type="text"],
+.Pagina-Eventos select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.Pagina-Eventos .opcoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.Pagina-Eventos .opcoes label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #444;
+}
+
+.Pagina-Eventos button {
+    padding: 10px 20px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.voltar {
+    display: block;
+    margin-bottom: 20px;
+    color: #ad1457;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}

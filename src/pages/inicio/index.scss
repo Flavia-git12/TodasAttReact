@@ -1,0 +1,45 @@
+.Pag-inicial {
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #fff5f8;
+    box-sizing: border-box;
+
+    .links {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 4px 15px rgba(173, 20, 87, 0.12);
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 0;
+        }
+
+        a {
+            display: block;
+            padding: 18px 20px;
+            background-color: #fce4ec;
+            color: #ad1457;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 10px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            background-color: #ad1457;
+            color: #ffffff;
+        }
+    }
+}

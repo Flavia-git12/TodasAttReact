@@ -1,0 +1,53 @@
+.page-calculadora {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: #fff5f8;
+}
+
+.section {
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #f2b8cd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #ad1457;
+}
+
+input {
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    margin: 10px;
+    background-color: #ad1457;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #880e4f;
+}
+
+.voltar {
+    display: block;
+    margin-bottom: 20px;
+    color: #ad1457;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
