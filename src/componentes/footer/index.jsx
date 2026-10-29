@@ -1,10 +1,10 @@
 import './index.scss';
 
-export default function Footer() {
+export default function Footer(props) {
     return (
+
         <footer className="footer">
-            <p>© 2026 - Página de Atividades</p>
-            <p>Desenvolvido com React 💗</p>
+            <p>{props.titulo ?? "© 2026 - Página de Atividades"}</p>
         </footer>
     );
 }
